@@ -5,8 +5,7 @@ import { FileService } from '@/services/base.service';
 export class BaseController {
   public user = Container.get(FileService);
 
-
-  public calculateFrames =  async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  public calculateFrames = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
       const file = req.file;
       const frame = await this.user.calculateFrames(file.buffer);
@@ -14,5 +13,5 @@ export class BaseController {
     } catch (error) {
       next(error);
     }
-  }
+  };
 }
