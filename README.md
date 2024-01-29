@@ -25,10 +25,10 @@ Create a .env file based on the env example below
 ```
 
 PORT
-PORT=
+PORT=3000
 
 LOG
-LOG_FORMAT=
+LOG_FORMAT=dev
 LOG_DIR=../logs
 
 CORS
