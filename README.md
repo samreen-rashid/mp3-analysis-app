@@ -1,4 +1,4 @@
-# mp3-analysis-app
+# mp3-analysis-challenge
 
 ## Overview
 
